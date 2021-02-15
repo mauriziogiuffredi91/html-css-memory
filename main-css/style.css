@@ -11,6 +11,18 @@ body{
 
 .main-container{
     margin: 0 auto;
+    width: 1080px;
+    height: 930px;
+}
+
+.main-container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+    margin-bottom: 40px;
 }
 
 header h1{
@@ -20,8 +32,12 @@ header h1{
     font-size: 60px;
 }
 
-.box{
-    height: 30px;
-    width: 30px;
+
+
+.card{
+    height: 306px;
+    width: 250px;
     background: white;
+    margin: 20px 10px;
+    float: left;
 }
