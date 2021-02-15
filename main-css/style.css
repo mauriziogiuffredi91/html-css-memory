@@ -32,7 +32,6 @@ header h1{
 }
 
 
-
 .special.box{
     border-radius: 6%;
     height: 306px;
@@ -74,7 +73,30 @@ header h1{
 }
 
 
+.different.box{
+    border-radius: 6%;
+    height: 306px;
+    width: 250px;
+    margin: 20px 10px;
+    float: left;
+    background-color: white;
+}
 
+.card-special{
+    position: relative;
+    width: 250px;
+    height: 306px;
+}
+
+.card-special img {
+    width: 255px;
+}
+
+.card-special h3{
+    color: #d42b64;
+    font-size: 30px;
+    text-align: center;
+}
 
 
 
