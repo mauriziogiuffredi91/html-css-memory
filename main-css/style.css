@@ -31,7 +31,7 @@ header h1{
     font-size: 60px;
 }
 
-
+.different.box,
 .special.box{
     border-radius: 6%;
     height: 306px;
@@ -41,7 +41,7 @@ header h1{
     background-color: white;
 }
 
-
+.card-special,
 .card { 
     position: relative;
     width: 250px;
@@ -72,22 +72,6 @@ header h1{
 }
 .card:hover .pattern {
     display: none;
-}
-
-
-.different.box{
-    border-radius: 6%;
-    height: 306px;
-    width: 250px;
-    margin: 20px 10px;
-    float: left;
-    background-color: white;
-}
-
-.card-special{
-    position: relative;
-    width: 250px;
-    height: 306px;
 }
 
 .card-special img {
