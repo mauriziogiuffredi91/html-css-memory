@@ -16,6 +16,7 @@ body{
     height: 930px;
 }
 
+/* utility */
 .main-container::after{
     content: '';
     display: table;
@@ -31,14 +32,25 @@ header h1{
 }
 
 
-
+/* utility card */
 .card{
+    border-radius: 6%;
     height: 306px;
     width: 250px;
-    background: white;
     margin: 20px 10px;
     float: left;
+    background-image:url('../img/pattern.png');
+    background-color: white;
+    background-size: 230px;
 }
+
+
+
+
+
+
+
+
 
 footer h4{
     text-align: center;
